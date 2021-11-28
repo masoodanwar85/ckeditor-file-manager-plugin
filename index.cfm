@@ -9,6 +9,7 @@
 		<textarea name="editor1"></textarea>
 		<script>
 			var config = {
+				fullPage: true,
 				filebrowserBrowseUrl: 'browser/browse.cfm?type=Files',
 				filebrowserUploadUrl: 'uploader/upload.php?type=Files'
 			};
