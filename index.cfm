@@ -10,8 +10,8 @@
 		<script>
 			var config = {
 				fullPage: true,
-				filebrowserBrowseUrl: 'browser/browse.cfm?type=Files',
-				filebrowserUploadUrl: 'uploader/upload.php?type=Files'
+				filebrowserBrowseUrl: 'browser/browse.cfm',
+				filebrowserUploadUrl: 'uploader/upload.cfm'
 			};
 			CKEDITOR.replace( 'editor1' , config);
 		</script>
